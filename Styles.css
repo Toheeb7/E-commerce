@@ -2,21 +2,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
+width: 100vw;
 }
 nav {
     
-    background-color: rgba(20, 18, 18, 0.822);
-    padding: 10px 20px;
+    background-color: #f68b1e;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
     color: #fff;
+    flex-direction: row;
 
     
 }
 nav a{
     color: #fff;
+    
 }
 header {
     background-color: #333;
@@ -42,6 +46,14 @@ header a {
     margin: 1rem 0;
     padding: 1rem;
     text-align: center;
+    background-color: #f68b1e;
+    box-shadow: black 10px;
+    border-radius: 10px;
+    width: 90%;
+    align-items: center;
+}
+.shoe-item:hover{
+    transform: scale(1.05);
 }
 
 .shoe-item img {
@@ -57,5 +69,5 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #333;
 }

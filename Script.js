@@ -1,6 +1,6 @@
 
 const shoes = [
-    { id: 1, name: 'Running Shoe', description: 'Comfortable running shoe', price: 59.99, image: 'https://via.placeholder.com/100' },
+  { id: 1, name: 'Running Shoe', description: 'Comfortable running shoe', price: 59.99, image: 'https://via.placeholder.com/100' },
     { id: 2, name: 'Basketball Shoe', description: 'High-top basketball shoe', price: 89.99, image: 'https://via.placeholder.com/100' },
     { id: 3, name: 'Casual Shoe', description: 'Stylish casual shoe', price: 49.99, image: 'https://via.placeholder.com/100' }
 ];
