@@ -42,7 +42,7 @@ function displayShoeDetails() {
     }
 }
 
-// Function to add a shoe to the cart
+
 function addToCart(shoeId) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     const shoe = shoes.find(shoe => shoe.id === shoeId);
