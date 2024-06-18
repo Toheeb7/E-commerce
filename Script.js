@@ -20,9 +20,11 @@ function displayShoes() {
         shoeList.appendChild(shoeItem);
     });
 }
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
+}
 
-
- 
 function displayShoeDetails() {
     const params = new URLSearchParams(window.location.search);
     const shoeId = parseInt(params.get('id'));
